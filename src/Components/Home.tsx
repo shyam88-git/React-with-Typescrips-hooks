@@ -1,10 +1,20 @@
+import HeroSection from "./HeroSection";
+const Home: React.FC = () => {
+  
+  return (
 
+    <>
 
-const Home:React.FC=()=>{
+     <HeroSection/>
 
-    return(
+    
+    </>
 
-        <div>Home</div>
-    )
-}
+  )
+    
+
+      
+           
+};
+
 export default Home;
