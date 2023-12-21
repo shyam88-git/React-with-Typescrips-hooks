@@ -1,31 +1,15 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Components/Home';
-import Contact from './Components/Contact';
-import About from './Components/About';
-import Service from './Components/Service';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
 
+import Navbar from './layout/NavBar';
 
+import TourCards from './components/tour/TourCards';
 
-
-
-const App: React.FC = () => {
+const App = () => {
   return (
     <>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/service" element={<Service />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+        <Navbar title="Tours "/>
+        <TourCards/>
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App
