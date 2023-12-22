@@ -1,11 +1,10 @@
-import ProductCart from "./components/ProductCart"
-
+import Register from "./components/Register"
 
 
 const App = () => {
   return (
     <>
-       <ProductCart/>
+     <Register/>
     </>
   )
 }
