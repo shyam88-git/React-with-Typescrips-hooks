@@ -1,10 +1,9 @@
-import Register from "./components/Register"
-
-
+import { UserList } from "./modules/components/UserList"
 const App = () => {
   return (
     <>
-     <Register/>
+    <UserList/>
+    
     </>
   )
 }
